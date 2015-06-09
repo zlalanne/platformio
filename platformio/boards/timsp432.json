@@ -1,0 +1,21 @@
+{
+    "msp432p401r": {
+        "build": {
+            "cpu": "cortex-m4",
+            "core": "msp432",
+            "extra_flags": "-D__MSP432P401R__ -DTARGET_IS_MSP432P4XX",
+            "f_cpu": "48000000L",
+            "ldscript": "MSP432P401R.lds",
+            "variant": "MSP-EXP432P401R"
+        },
+        "frameworks": ["energia"],
+        "name": "MSP-EXP432P401R (48MHz)",
+        "platform": "timsp432",
+        "upload": {
+            "maximum_ram_size": 65535,
+            "maximum_size": 262144
+        },
+        "url": "",
+        "vendor": "TI"
+    }
+}
